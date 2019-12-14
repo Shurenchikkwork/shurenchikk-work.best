@@ -1,0 +1,25 @@
+{
+  "name": "shurenchikk-work.best",
+  "version": "1.0.0",
+  "description": "Сайт с моей разработкой в web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shurenchikkwork/shurenchikk-work.best.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shurenchikkwork/shurenchikk-work.best/issues"
+  },
+  "homepage": "https://github.com/Shurenchikkwork/shurenchikk-work.best#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
