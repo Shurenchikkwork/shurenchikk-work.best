@@ -485,14 +485,32 @@ body {
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
-    margin-right: 7px;
+    margin-right: 15px;
     color: #fff;
     text-decoration: none; }
   .contacts__bUtton {
     display: none; }
   .logo {
     display: flex;
-    margin-right: 0; } }
+    margin-right: 0;
+    margin-left: 15px; }
+  .title {
+    font-size: 1.6rem; }
+  .hero__scroll-down {
+    display: none; }
+  .hero__content {
+    max-width: 22.86rem; }
+  .hero__text {
+    font-size: 1.29rem;
+    margin-bottom: 2.28rem; }
+  .hero__button {
+    display: block;
+    min-width: 22.86rem;
+    margin-bottom: 1.85rem; } }
+
+@media screen and (max-height: 615px) {
+  .hero__scroll-down {
+    display: none; } }
 
 header {
   color: #fff; }
